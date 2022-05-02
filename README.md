@@ -14,7 +14,7 @@ docker-compose up -d
 ```
 # into the container
 ```
-docker exec -it cppdev
+docker exec -it cppdev bash
 ```
 # c++ move(in the container)
 ```
