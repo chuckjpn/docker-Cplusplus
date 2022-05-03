@@ -28,3 +28,11 @@ g++ hello.cpp -o hello
 ```
 ./hello
 ```
+# ファイルの分割サンプル
+Sample1/Sample1.cppと
+Sample1/myfunc.cppを
+合わせてコンパイルする
+```
+g++ Sample1/Sample1.cpp Sample1/myfunc.cpp -o build/Sample1
+./build/Sample1
+```
