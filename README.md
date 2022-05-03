@@ -30,9 +30,27 @@ g++ hello.cpp -o hello
 ```
 # ファイルの分割サンプル
 Sample1/Sample1.cppと
+
 Sample1/myfunc.cppを
+
 合わせてコンパイルする
+
+コンパイル
 ```
 g++ Sample1/Sample1.cpp Sample1/myfunc.cpp -o build/Sample1
+```
+実行
+```
 ./build/Sample1
 ```
+結果
+
+1番目の整数を入力してください。
+
+> 10
+
+2番目の整数を入力してください。
+
+> 5
+
+最大値は10です。
